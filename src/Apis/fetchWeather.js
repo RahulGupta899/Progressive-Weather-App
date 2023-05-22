@@ -20,7 +20,7 @@ export const fetchWeather =  async(query)=>{
         console.log("#############")
         console.log("Error exists")
         console.log(err.message)
-        // alert("Please enter a valid city...")
+        alert("Please enter a valid city...")
         return;
     }
     
